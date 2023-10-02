@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{  
+            place-items: center;
+            width: 100vw; 
+            height: 100vh;
+            display: grid;
+            background-image: url(https://as01.epimg.net/deportes_accion/imagenes/2020/02/07/reportajes/1581079607_929594_1581161248_noticiareportajes_grande.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: auto; 
+          
+        }
+        .padre {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+        .hijo {
+            border: 1px solid black;
+            border-radius: 10px;
+            background-color: aliceblue;
+            width: 20%;
+            align-items: center;
+            margin: 30px;
+            text-align: center;
+            width: 400px;
+            height: 500px;
+            
+        }
+        .image{
+            align-items: center;
+            width: 100%;
+            border: 1px transparent;
+            border-top-right-radius: 10px;
+            border-top-left-radius:  10px;
+        }
+        .titulo{
+         
+           color: brown;
+           margin: 15px;
+        }
+        .texto{
+           height: 100px ;
+            color: gray;
+            margin: 15px;
+        }
+        .link{
+            text-align: end;
+        }
+        
+       
+    </style>
+
+</head>
+
+<body>
+    <div class="padre">
+        <div class="hijo">
+            <img class="image"  src="https://st.depositphotos.com/1033604/2008/i/450/depositphotos_20087151-stock-photo-beautiful-lake-with-mountains-in.jpg" alt="Naturaleza">
+            <h2 class="titulo">Naturaleza</h6>
+                <h4 class="texto">es un concepto utilizado para referirse al mundo material o universo material, incluyendo los fenómenos del mundo físico, la materia inerte generada como parte de procesos sin la intervención humana, y al fenómeno de la vida, que incluye también a los humanos.</h3>
+                <a id="link" href="#">leer mas</a>
+        </div>
+        <div class="hijo">
+            <img class="image" src="https://img.freepik.com/foto-gratis/tabla-cortar-madera-rodeada-platos-pasta-e-ingredientes-mesa_23-2148246798.jpg" alt="comida">
+            <h2 class="titulo">Comida</h6>
+                <h4 class="texto">Se conoce como comida al conjunto de sustancias alimenticias que se comen y se beben para subsistir. Al ser ingerida, la comida provee elementos para la nutrición del organismo vivo.</h3>
+                <a class="link" href="#">leer mas</a>
+        </div>
+        <div class="hijo">
+            <img class="image" src="https://phantom-expansion.unidadeditorial.es/c619f3b628ab45e19cc80ceef95ddd69/f/jpg/assets/multimedia/imagenes/2020/12/15/16080660925480.jpg" alt="tecnologia">
+            <h2 class="titulo">Tecnologia</h6>
+                <h4 class="texto">ala tecnología parecería estar más cercana a nosotros, porque reconocemos que vivimos inmersos en ella permanentemente. Incluso la vemos en espacios nuevos que nos toca recorrer, agilizando los procesos y acortando los tiempos.</h3>
+                <a class="link" href="#">leer mas</a>
+        </div>
+    </div>
+</body>
+
+</html>
